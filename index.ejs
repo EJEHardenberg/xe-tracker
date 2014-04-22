@@ -1,0 +1,7 @@
+<h2>Select A Project to Reveiw<h2>
+
+<ul>
+	<% for(var slug in public._data){ %>
+	  <h2><a href="/<%= slug %>"><%= public._data[slug].title %></a></h2>
+	<% }; %>
+</ul>
