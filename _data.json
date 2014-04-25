@@ -1,10 +1,12 @@
 {
 	"sitemap" : {
 		"project" : "Sitemap | ",
-		"title" : "Sitemap"
+		"title" : "Sitemap",
+		"layout" : "_layout"
 	},
 	"greenup" : {
 		"project" : "Green Up | ",
-		"title" : "Green Up"
+		"title" : "Green Up",
+		"layout" : "_layout"
 	}
 }
