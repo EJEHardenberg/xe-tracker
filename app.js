@@ -37,6 +37,7 @@ $('.latest-commit').each(function(e,t){
 		var msg = data.message
 		var url = data.html_url
 		$(ref).append('<li><a href="'+url+'">'+sha+'</a><h3>'+author+'<span class="date">'+when+'</span></h3><p>'+msg+'</p></li>')
+		$(ref).closest('img').remove()
 	})
 })
 
